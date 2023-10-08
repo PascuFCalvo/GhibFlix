@@ -1,0 +1,148 @@
+@font-face {
+   font-family: "Netflix";
+   src: url("../font/NetflixSansRegular.ttf");
+
+}
+
+
+.main-container {
+   font-family: "Netflix";
+   background-color: #070D0D;
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.background-title-container-navbar {
+   position: absolute;
+   z-index: 2;
+   
+   display: flex;
+}
+
+.navbar-expand-lg {
+   display: flex;
+   flex-direction: row;
+
+}
+
+.navbar-light .navbar-brand {
+   display: flex;
+   
+   font-size: 3em;
+   justify-content: flex-start;
+   align-items: center;
+   margin-top: 17px;
+   color: #E50914;
+   margin-left: 0.5em;
+   font-weight: bolder;
+   
+}
+
+.language-startsesion {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 1em;
+}
+.navbar {
+   justify-content:flex-start;
+
+}
+
+.row {
+   --bs-gutter-x: 0em;
+}
+
+.bg-light {
+   background-color: #070d0d00 !important;
+}
+
+
+.btn-outline-success {
+   color: aliceblue;
+   background-color: #E50914;
+   border: solid 1px black;
+   border-color: #070D0D;
+}
+
+.nav-item{
+   list-style-type: none;
+}
+.nav-link{
+   
+   list-style-type: none;
+   text-decoration: none;
+   background-color:#070D0D;
+   border: solid 1px aliceblue;
+   border-radius: 4px;
+   padding: 0.4em;
+   color: aliceblue;
+   margin-right: 10px;
+}
+
+.nav-link:focus, .nav-link:hover {
+   color: #070D0D;
+}
+
+.background-img-first-section{
+   position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.background-img-first-section::before{
+   content: "";
+      background-image: url("../images/Background-section-1.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+   
+}
+.title{
+   width: 80vw;
+   position: absolute;
+  color: aliceblue;
+  font-size: 2em;
+  line-height: 0.9;
+  text-align: center;
+   top:300px;
+ 
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.subtitle{
+   margin-top: 40px;
+   position: absolute;
+   margin-top: 1em;
+   width: 80vw;
+   color: aliceblue;
+   line-height: 0.9;
+   text-align: center;
+
+ 
+  
+  
+  
+}
+
+.blank20{
+   width: 20vw;
+   
+}
+
